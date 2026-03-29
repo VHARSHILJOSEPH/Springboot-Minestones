@@ -1,12 +1,77 @@
+V.Harshil Joseph
 
+🚀 Project Milestones
 
-🚀 Milestone 1: Data Foundations & Engineering
-In this first phase, I shifted my focus from just writing code to understanding the "DNA" of an application: the data itself.
+📌 Milestone 1: Data Ingestion and Schema Design (Weeks 1–2)
 
-Knowledge Graphs: Explored how to move beyond basic tables to represent data as a network of real-world relationships and entities.
+The main goal here is to set up data pipelines and define the knowledge graph structure.
 
-Dataset Mastery: Learned to identify different data structures and what actually makes a dataset "high quality" for a Spring Boot application.
+Here are the tasks to be done:
 
-The Hunt for Data: Scouted various online repositories (Kaggle, UCI, etc.) and categorized different data types to find the best fit for my projects.
+* Connect to our company data sources like databases, emails and documents.
 
-The "Janitor" Work (Cleaning & Insertion): Got my hands dirty with Python libraries to scrub messy datasets and automate the insertion process—because a great app is only as good as the data feeding it.
+* Build data ingestion pipelines to collect all the data.
+
+* Design a knowledge graph schema to organize the data.
+
+We expect to deliver:
+
+* A functional ingestion pipeline to collect data.
+
+* A defined schema for entities and relationships to structure the data.
+
+📌 Milestone 2: Entity Extraction and Graph Construction (Weeks 3–4)
+
+The objective is to extract entities and relationships build the knowledge graph.
+
+The tasks include:
+
+* Using LLM-based Named Entity Recognition (NER) to identify entities.
+
+* Performing relationship extraction to connect entities.
+
+* Storing the graph in Neo4j or TigerGraph.
+
+* Validating the graph structure to ensure accuracy.
+
+The deliverables are:
+
+* A constructed knowledge graph, with entities and relationships.
+
+* Extracted. Relationships.
+
+📌 Milestone 3: Semantic Search and RAG Integration (Weeks 5–6)
+
+The goal is to enable querying and knowledge retrieval.
+
+The tasks are:
+
+* Generating embeddings using FAISS or Pinecone.
+
+* Integrating the RAG pipeline using LangChain.
+
+* Implementing search to find relevant information.
+
+The expected deliverables are:
+
+* A working semantic search system.
+
+* A functional RAG-based retrieval system.
+
+📌 Milestone 4: Dashboard and Deployment (Weeks 7–8)
+
+The objective is to build a UI and deploy the system.
+
+The tasks include:
+
+* Developing a graph dashboard using React, D3.js or Plotly.
+
+* Integrating APIs to connect to the system.
+
+* Deploying the application to make it live.
+
+The deliverables are:
+
+* A deployed platform.
+
+* An interactive visualization dashboard.
